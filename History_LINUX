@@ -1,1 +1,32 @@
-!(/screen1.png?raw=true "Optional Title")
+  42  cat >> home_animals
+  43  cat >> pack_animals
+  44  cat home_animals pack_animals > all_animals
+  45  ls
+  46  cat all_animals
+  47  mv all_animals human_friends
+  48  ls
+  49  mkdir /home/user/animals
+  50  mv all_animals /animals
+  51  ls
+  52  mv human_friends /home/user/animals
+  53  tree
+  54  wget https://dev.mysql.com/downloads/file/?id=520541
+  55  rm index.html\?id\=520541 
+  56  ls
+  57  wget https://dev.mysql.com/get/Downloads/MySQL-8.1/mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb
+  58  rm mysql-community-server-core_8.1.0-1ubuntu22.04_amd64.deb 
+  59  wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  60  dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+  61  apt update
+  62  apt-cache policy mysql-server
+  63  systemctl status mysql
+  64  systemctl stop mysql 
+  65  systemctl status mysql
+  66  ls /etc/apt/preferences.d/
+  67  apt purge mysql-server -s
+  68  apt purge --autoremove mysql-server -s
+  69  apt purge --autoremove mysql-server
+  70  apt update
+  71  apt-cache policy mysql-server
+  72  apt install mysql-server
+  73  systemctl status mys
