@@ -53,6 +53,6 @@
 типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
 считать в ресурсе try, если при заведения животного заполнены все поля.
 
-       
+       [Файл с ответами на задания 13-15]([https://pages.github.com/JAVA](https://github.com/NataliaKolodina/Final_control_work/tree/main/JAVA))
            
 
